@@ -1,0 +1,22 @@
+.mainnav {
+    padding: 10px;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .mainnav {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+}

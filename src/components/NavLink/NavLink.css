@@ -1,0 +1,22 @@
+.maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 10px;
+    /* padding: auto 20px; */
+    /* border: 2px solid brown; */
+    width: 100px;
+}
+
+.link {
+    margin: 0;
+    padding: 10px;
+    color: black;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+
+.link:hover {
+    cursor: pointer;
+    font-size: 25px;
+}
