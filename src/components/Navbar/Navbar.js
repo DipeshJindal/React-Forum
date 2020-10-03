@@ -11,8 +11,6 @@ class Navbar extends Component {
                     <NavLink name="Home" />
                     <NavLink name="Home" />
                     <NavLink name="Home" />
-                    <NavLink name="Home" />
-                    <NavLink name="Home" />
                 </div>
                 <Hamburger />
             </div>
